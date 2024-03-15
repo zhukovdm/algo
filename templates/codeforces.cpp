@@ -22,6 +22,7 @@
 using namespace std;
 
 using ll = long long;
+using ld = long double;
 
 auto start_time = chrono::high_resolution_clock::now();
 auto elapsed_time() -> double
@@ -33,7 +34,7 @@ auto elapsed_time() -> double
 #ifdef LOCAL
 #include "algo/debug.hpp"
 #else
-#define debug(...) 0
+#define debug(...) 42
 #endif
 
 auto solve() -> void
